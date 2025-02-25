@@ -5,7 +5,7 @@
     <application>
         <provider
             android:name=".PrintFileProvider"
-            android:authorities="${applicationId}.flutter.printing"
+            android:authorities="net.nfet.flutter.printing.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
